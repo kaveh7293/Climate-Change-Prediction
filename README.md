@@ -21,15 +21,6 @@
     <td> 5</td>
     <td>42.4</td>
   </tr>
-  
-  <tr>
-    <td> It is an awful app</td>
-    <td>Bad</td>
-  </tr>
-  <tr>
-    <td>I absoloutely recommend it to others</td>
-    <td>Good</td>
-   </tr>
 </table>
 
 
