@@ -31,5 +31,5 @@
   
   The following data also shows the test data set vs. the corresponding predictions for the test data set:<br>
    
-<img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Temp_Increase_prediction_test.png'  width='400' height='300'><br>
+<img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Temp_Increase_prediction_test.png' width='400' height='300'><br>
 
