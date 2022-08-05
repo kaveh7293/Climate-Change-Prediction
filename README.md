@@ -5,7 +5,7 @@
 
   <table>
   <tr>
-    <th>Number of Inputs</th>
+    <th> Number of Inputs</th>
     <th>MSE for Test Dataset</th>
   </tr>
   <tr>
