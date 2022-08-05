@@ -27,6 +27,6 @@
   </tr>
 </table><br>
 <p> The folowing figure shows the predicted values of temperature increase in different years using LSTM-based neural networks compared to the training data:<br>
-  <img src=''>
+  <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Temp_Increase_prediction.png'>
 
 
