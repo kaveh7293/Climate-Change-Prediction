@@ -16,12 +16,6 @@
   <tr>
     <td>20</td>
     <td>7.23</td>
-  
-  </tr>
-  <tr>
-    <td><strong>10</strong></td>
-    <td><strong>5.47</strong></td>
-  
   </tr>
   <tr>
     <td> 5</td>
