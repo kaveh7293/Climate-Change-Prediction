@@ -18,8 +18,8 @@
     <td>7.23</td>
   </tr>
   <tr>
-    <td> 10</td>
-    <td>1.24</td>
+    <td><strong>10</strong></td>
+    <td><strong>1.24</strong></td>
   </tr>
   <tr>
     <td> 5</td>
