@@ -19,11 +19,11 @@
   </tr>
   <tr>
     <td> 10</td>
-    <td>42.4</td>
+    <td>1.24</td>
   </tr>
   <tr>
     <td> 5</td>
-    <td>1.24</td>
+    <td>42.4</td>
   </tr>
 </table>
 
