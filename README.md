@@ -6,9 +6,9 @@
   
   <ol>
     <li> I preprocess the data that I have obtained from two different sources.</li>
-    <li> I fit a LSTM-based recurrent neural network model to fit the part of the data chosen for training. </li>
-    <li> I compare the results of model predictions for the test data based on different hyperparameter values and select the optimal hyperparameter value</li>
-    <li> I use the optimal model to predict what will be the world temperature in 2030 if the Paris agreement goals are met (i.e., decrease the annual CO2 emission 2 Gt per year).</li> 
+    <li> I fit <strong>two different LSTM-based recurrent neural network models </strong> to fit the part of the data chosen for training. </li>
+    <li> I compare the results of model predictions for the test data based on different hyperparameter values and model architecture and select the optimal hyperparameter value</li>
+    <li> I use the optimal model <strong>to predict what will be the world temperature in 2030 if the Paris agreement goals are met</strong> (i.e., decrease the annual CO2 emission 2 Gt per year).</li> 
   </ol><br><br>
 <h3>LSTM RNN Model </h3>
 
