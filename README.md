@@ -10,7 +10,7 @@
     <li> I compare the results of model predictions for the test data based on different hyperparameter values and model architecture and select the optimal hyperparameter value</li>
     <li> I use the optimal model <strong>to predict what will be the world temperature in 2030 if the Paris agreement goals are met</strong> (i.e., decrease the annual CO2 emission 2 Gt per year).</li> 
   </ol><br><br>
-<h3>LSTM RNN Model </h3>
+<h3>First LSTM-based RNN Model </h3>
 
 
   <table>
