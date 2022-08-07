@@ -15,8 +15,9 @@
 
 <h3>Second LSTM-based RNN Model </h3>
 <p> The architecture of the second type of the RNN model is shown in the following. As shown, with the current model, we use a maxpooling layer to collect the information from all the LSTM layers. By doing so, the model is more capable of accounting for the earlier values in the sequence. <br>
-  <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/First_Model_Architecture.png' width='550' height='400'>
-
+  <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/First_Model_Architecture.png' width='550' height='400'><br>
+  To decide what should be the appropriate dimension of the input sequence, I run LSTM-based estimation using different length for the input sequence and based on higher prediction ability of the model for the test data, I chose the appropriate sequence length. Note that, since the results are stochastic and can vary from run to run, I ran the model fitting step four times and decided based on the average values of the four data. The average values are provided in the following figure.
+  
   <table>
   <tr>
     <th> Number of Inputs</th>
@@ -24,20 +25,20 @@
   </tr>
   <tr>
     <td>30</td>
-    <td>3.03</td>
+    <td>8.92</td>
   
   </tr>
   <tr>
     <td>20</td>
-    <td>1.61</td>
+    <td>11.29</td>
   </tr>
   <tr>
     <td><strong>10</strong></td>
-    <td><strong>2.35</strong></td>
+    <td><strong>4.93</strong></td>
   </tr>
   <tr>
     <td> 5</td>
-    <td>2.37</td>
+    <td>16.8</td>
   </tr>
 </table><br>
 <p>  The folowing figure shows the predicted values of temperature increase in different years using LSTM-based neural networks compared to the training data:<br><br>
