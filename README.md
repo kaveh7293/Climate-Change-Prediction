@@ -69,7 +69,7 @@
   </tr>
 </table><br>
 
-<p>Comparing the results from two tables showed that the second RNN architecture is better to be used with a sequence length of ten. The folowing figure shows the predicted values of temperature increase using the second architecture with the input length of 10 in different years using LSTM-based neural networks compared to the training data:<br><br>
+<p>Comparing the results from two tables showed that the second RNN architecture is better to be used with a sequence length of ten. The folowing figure shows the predicted values of temperature increase using the second architecture with the input length of 10 in different years using LSTM-based neural networks compared to the training data:<br> <br>
   <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Temp_Increase_prediction_second_case.png' width='400'  height='300'><br>
   
   The following data also shows the test data set vs. the corresponding predictions for the test data set: <br>
