@@ -80,5 +80,5 @@
   
  <p> Even with decreasing 2 bilion tone CO2 emission, the atmosphere temperature will go up to arround 1.5. This is the results that have been cofirmed using my model (see the following):<br>
  
- <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Predictions.png'>
+ <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Predictions.png' width='400'  height='300'>
   
