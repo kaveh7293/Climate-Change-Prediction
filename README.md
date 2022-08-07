@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td><strong>20</strong></td>
-    <td>16.52</td>
+    <td><strong>16.52</strong></td>
   </tr>
   <tr>
     <td>10</td>
