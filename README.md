@@ -14,7 +14,7 @@
 <p>The architecture for the first kind of LSTM-based neural network is shown in the following Figure. As shown, we only use the outputs of the LSTM unit corresponding to the last time step.
   
 <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Second_Model_Architecture.png' width='550' height='400' ><br>
-  We fit the model using different sequence lengths for the inputs to find the optimal sequence length. The results are shown in the following table. Note that because the results from model training change from run to run, I trained each model with especfic sequence length four times and reported the avarage value in the table. <br>
+  We train the RNN model using different sequence lengths for the inputs to find the optimal sequence length. For each model training, I obtained mean squared error of the predictions for the test dataset and divided that by the mean absoloute values of the test dataset to report the percentage of the error. The results are shown in the following table. Note that because the results from model training change from run to run, I trained each model with especfic sequence length four times and reported the avarage value of model accuracy for the test dataset in the table. I will compare the results in the following table with those results that I will obtained when I use a different RNN architecture to decide which architecture is more oppropriate to use. <br>
     <table>
   <tr>
     <th> Number of Inputs</th>
@@ -68,7 +68,8 @@
     <td>16.8</td>
   </tr>
 </table><br>
-<p>  The folowing figure shows the predicted values of temperature increase in different years using LSTM-based neural networks compared to the training data:<br><br>
+
+<p>Comparing the results from two tables showed that the second RNN architecture is better to be used with a sequence length of ten. The folowing figure shows the predicted values of temperature increase using the second architecture with the input length of 10 in different years using LSTM-based neural networks compared to the training data:<br><br>
   <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Temp_Increase_prediction_second_case.png' width='400'  height='300'><br>
   
   The following data also shows the test data set vs. the corresponding predictions for the test data set: <br>
