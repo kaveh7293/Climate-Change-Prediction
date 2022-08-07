@@ -14,7 +14,7 @@
 <p>The architecture for the first kind of LSTM-based neural network is shown in the following Figure. As shown, we only use the outputs of the LSTM unit corresponding to the last time step.
   
 <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Second_Model_Architecture.png' width='550' height='400' ><br>
-  We train the RNN model using different sequence lengths for the inputs to find the optimal sequence length. For each model training, I obtained mean squared error of the predictions for the test dataset and divided that by the mean absoloute values of the test dataset to report the percentage of the error. The results are shown in the following table. Note that because the results from model training change from run to run, I trained each model with especfic sequence length four times and reported the avarage value of model accuracy for the test dataset in the table. I will compare the results in the following table with those results that I will obtained when I use a different RNN architecture to decide which architecture is more oppropriate to use. <br>
+  We train the RNN model using different sequence lengths for the inputs to find the optimal sequence length. For each model training, I obtained mean squared error of the predictions for the test dataset and divided that by the mean absoloute values of the test dataset to report the percentage of the error. The results are shown in the following table. Note that because the results from model training change from run to run, I trained each model with especfic sequence length four times and reported the avarage value of model accuracy for the test dataset in the table. I will compare the results in the following table with those results that I will obtained when I use a different RNN architecture to decide which architecture is more oppropriate to use. You can find the code for these implementations <a href=''> here.<a><br>
     <table>
   <tr>
     <th> Number of Inputs</th>
@@ -43,7 +43,7 @@
 <h3>Second LSTM-based RNN Model </h3>
 <p> The architecture of the second type of the RNN model is shown in the following. As shown, with the current model, we use a maxpooling layer to collect the information from all the LSTM layers. By doing so, the model is more capable of accounting for the earlier values in the sequence. <br>
   <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/First_Model_Architecture.png' width='550' height='400'><br>
-  To decide what should be the appropriate dimension of the input sequence, I run LSTM-based estimation using different length for the input sequence and based on higher prediction ability of the model for the test data, I chose the appropriate sequence length. Note that, since the results are stochastic and can vary from run to run, I ran the model fitting step four times and decided based on the average values of the four data. The average values are provided in the following figure.
+  To decide what should be the appropriate dimension of the input sequence, I run LSTM-based estimation using different length for the input sequence and based on higher prediction ability of the model for the test data, I chose the appropriate sequence length. Note that, since the results are stochastic and can vary from run to run, I ran the model fitting step four times and decided based on the average values of the four data. The average values are provided in the following figure. You can find the code for these implementations <a href=''> here.<a>
   
   <table>
   <tr>
