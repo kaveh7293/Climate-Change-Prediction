@@ -12,6 +12,7 @@
   </ol><br><br>
 <h3>First LSTM-based RNN Model </h3>
 
+<img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Second_Model_Architecture.png' width='550' height='400' >
 
 <h3>Second LSTM-based RNN Model </h3>
 <p> The architecture of the second type of the RNN model is shown in the following. As shown, with the current model, we use a maxpooling layer to collect the information from all the LSTM layers. By doing so, the model is more capable of accounting for the earlier values in the sequence. <br>
