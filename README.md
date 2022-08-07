@@ -77,3 +77,6 @@
 <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Temp_Increase_prediction_test.png' width='400' height='300'><br>
 
 <h3> Prediction of Atmoshere Temperature if Paris Agreement is Followed</h3>
+  
+  Even with decreasing 2 bilion tone CO2 emission, the atmosphere temperature will go up to arround 1.5. This is the results that have been cofirmed using my model (see the following):
+  
