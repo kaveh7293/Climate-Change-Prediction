@@ -15,7 +15,7 @@
 
 <h3>Second LSTM-based RNN Model </h3>
 <p> The architecture of the second type of the RNN model is shown in the following. As shown, with the current model, we use a maxpooling layer to collect the information from all the LSTM layers. By doing so, the model is more capable of accounting for the earlier values in the sequence. <br>
-  <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/First_Model_Architecture.png' width='450' height='400'>
+  <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/First_Model_Architecture.png' width='550' height='400'>
 
   <table>
   <tr>
@@ -24,20 +24,20 @@
   </tr>
   <tr>
     <td>30</td>
-    <td>5.09</td>
+    <td>3.03</td>
   
   </tr>
   <tr>
     <td>20</td>
-    <td>8.29</td>
+    <td>1.61</td>
   </tr>
   <tr>
     <td><strong>10</strong></td>
-    <td><strong>1.23</strong></td>
+    <td><strong>2.35</strong></td>
   </tr>
   <tr>
     <td> 5</td>
-    <td>10.15</td>
+    <td>2.37</td>
   </tr>
 </table><br>
 <p>  The folowing figure shows the predicted values of temperature increase in different years using LSTM-based neural networks compared to the training data:<br><br>
