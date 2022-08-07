@@ -11,9 +11,35 @@
     <li> I use the optimal model <strong>to predict what will be the world temperature in 2030 if the Paris agreement goals are met</strong> (i.e., decrease the annual CO2 emission 2 Gt per year).</li> 
   </ol><br><br>
 <h3>First LSTM-based RNN Model </h3>
+<p>The architecture for the first kind of LSTM-based neural network is shown in the following Figure. As shown, we only use the outputs of the LSTM unit corresponding to the last time step.
+  
+<img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Second_Model_Architecture.png' width='550' height='400' ><br>
+  We fit the model using different sequence lengths for the inputs to find the optimal sequence length. The results are shown in the following table. Note that because the results from model training change from run to run, I trained each model with especfic sequence length four times and reported the avarage value in the table. <br>
+    <table>
+  <tr>
+    <th> Number of Inputs</th>
+    <th>MSE for Test Dataset</th>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>79.59</td>
+  
+  </tr>
+  <tr>
+    <td><strong>20</strong></td>
+    <td>16.52</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>23.22</td>
+  </tr>
+  <tr>
+    <td> 5</td>
+    <td>75.5</td>
+  </tr>
+</table><br>
 
-<img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/Second_Model_Architecture.png' width='550' height='400' >
-
+</p>
 <h3>Second LSTM-based RNN Model </h3>
 <p> The architecture of the second type of the RNN model is shown in the following. As shown, with the current model, we use a maxpooling layer to collect the information from all the LSTM layers. By doing so, the model is more capable of accounting for the earlier values in the sequence. <br>
   <img src='https://github.com/kaveh7293/Climate-Change-Prediction/blob/main/First_Model_Architecture.png' width='550' height='400'><br>
